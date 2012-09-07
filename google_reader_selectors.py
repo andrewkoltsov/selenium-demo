@@ -5,7 +5,7 @@ Created on 03.08.2012
 '''
 
 class GoogleReaderSelectors(object):
-    subscriptions = 'css=#sub-tree .sub.unselectable.expanded'
+    subscriptions = 'css=#sub-tree .sub.unselectable.expanded a'
     entries = 'css=#entries .entry'
     spinner = 'id=activity-indicator'
     loading_area = 'id=loading-area'
